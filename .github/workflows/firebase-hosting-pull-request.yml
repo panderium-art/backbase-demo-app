@@ -8,9 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main branch of the Repo
-        uses: actions/checkout@main
+        uses: actions/checkout@master
       - name: Install Node
-        uses: actions/setup-node@main
+        uses: actions/setup-node@master
         with:
           node-version: '10.x'
       - name: Installing dependencies
@@ -18,7 +18,7 @@ jobs:
       - name: Creating bundle which will be delivered to remote hosting
         run: npm run build
       - name: Deploy to Firebase
-        uses: w9jds/firebase-action@main
+        uses: w9jds/firebase-action@master
         with:
           args: deploy --only hosting
         env:
