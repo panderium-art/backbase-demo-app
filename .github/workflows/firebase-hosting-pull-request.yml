@@ -1,0 +1,25 @@
+name: CI
+on:
+  push:
+    branches:
+      - main
+jobs:
+  firebase-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main branch of the Repo
+        uses: actions/checkout@main
+      - name: Install Node
+        uses: actions/setup-node@main
+        with:
+          node-version: '10.x'
+      - name: Installing dependencies
+        run: npm install
+      - name: Creating bundle which will be delivered to remote hosting
+        run: npm run build
+      - name: Deploy to Firebase
+        uses: w9jds/firebase-action@main
+        with:
+          args: deploy --only hosting
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
