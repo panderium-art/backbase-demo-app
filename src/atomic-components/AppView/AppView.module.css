@@ -1,9 +1,0 @@
-.container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    min-height: 90vh;
-    flex-wrap: wrap;
-    padding: 50px 10%;
-    background: url("../../background.jpg") no-repeat center center fixed;
-}

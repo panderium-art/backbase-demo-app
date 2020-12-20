@@ -2,7 +2,7 @@ import React from "react";
 
 import './TransferWidget.styles.css'
 
-import arrows from "../../arrows.png";
+import arrows from "../../images/arrows.png";
 import Input from "../../atomic-components/Input/Input";
 import Button from "../../atomic-components/Button/Button";
 import Widget from "../../atomic-components/Widget/Widget";

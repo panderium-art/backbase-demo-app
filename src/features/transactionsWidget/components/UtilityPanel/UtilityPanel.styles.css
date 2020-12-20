@@ -24,6 +24,6 @@
 .adornment {
     width: 10px;
     height: 10px;
-    background: url(../../../../close.png) no-repeat;
+    background: url(../../../../images/close.png) no-repeat;
     background-size: contain;
 }

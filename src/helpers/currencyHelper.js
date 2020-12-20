@@ -14,8 +14,13 @@ const DEFAULT_OPTIONS = {
  * @returns {currency} - result
  */
 export const subtract = (minuend, subtrahend) => currency(minuend).subtract(subtrahend);
-
-export const add = (val1, val2) => currency(val1).add(val2);
+/**
+ *
+ * @param augend
+ * @param addend
+ * @returns {currency}
+ */
+export const add = (augend, addend) => currency(augend).add(addend);
 
 /**
  *

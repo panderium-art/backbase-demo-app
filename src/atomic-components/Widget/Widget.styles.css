@@ -1,6 +1,8 @@
 .widget-container {
     height: 100%;
     min-width: 320px;
+    display: flex;
+    flex-direction: column;
 }
 
 .widget-container--small {

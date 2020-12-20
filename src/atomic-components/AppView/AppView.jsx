@@ -1,11 +1,11 @@
 import React from 'react';
-import styles from './AppView.module.css'
+import './AppView.styles.css'
 
 const AppView = (props) => {
     return (
-        <main className={styles.container}>
-            {props.children}
-        </main>
+            <main className="container">
+                {props.children}
+            </main>
     )
 }
 

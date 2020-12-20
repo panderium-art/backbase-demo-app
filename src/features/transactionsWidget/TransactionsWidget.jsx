@@ -1,6 +1,6 @@
 import React from 'react';
 
-import logo from '../../briefcase.png'
+import logo from '../../images/briefcase.png'
 
 import Widget from "../../atomic-components/Widget/Widget";
 import UtilityPanel from "./components/UtilityPanel/UtilityPanel";
