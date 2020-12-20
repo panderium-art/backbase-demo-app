@@ -1,0 +1,13 @@
+.transactions-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid var(--grey);
+    margin-top: 15px;
+}
+
+.transactions-list__stub {
+    margin-top: 2rem;
+}
+
+

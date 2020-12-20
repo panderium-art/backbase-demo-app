@@ -1,0 +1,29 @@
+.panel-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.panel-block {
+    flex: 1;
+    display: flex;
+}
+
+.adornment-container {
+    display: flex;
+    justify-content: center;
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    align-items: center;
+    cursor: pointer;
+}
+
+.adornment {
+    width: 10px;
+    height: 10px;
+    background: url(../../../../close.png) no-repeat;
+    background-size: contain;
+}

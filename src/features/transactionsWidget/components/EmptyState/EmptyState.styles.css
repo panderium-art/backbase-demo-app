@@ -1,0 +1,16 @@
+.stub {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.stub__title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.stub__text {
+    font-size: 1rem;
+    font-family: 'Kanit-Light';
+}

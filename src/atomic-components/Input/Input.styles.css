@@ -1,0 +1,30 @@
+.input-wrapper {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    border: 0;
+    outline: none;
+    border-bottom: 2px solid var(--grey);
+    padding: 5px 0;
+    color: var(--primary);
+    background: none;
+    font-family: 'Kanit-Regular';
+    font-size: 1rem;
+}
+
+.input--disabled {
+    pointer-events: none;
+}
+
+.label {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--primary);
+    margin-bottom: 5px;
+    font-size: 0.75rem;
+    font-family: 'Kanit-Bold';
+}

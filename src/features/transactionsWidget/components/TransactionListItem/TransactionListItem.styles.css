@@ -1,0 +1,60 @@
+.transaction {
+    display: flex;
+    align-items: center;
+    min-height: 70px;
+    position: relative;
+}
+
+.transaction:not(:last-child) {
+    border-bottom: 2px solid var(--grey);
+}
+
+.transaction__block {
+    display: flex;
+    flex: 1.5;
+    height: 100%;
+}
+
+.transaction__block--mg {
+    margin-right: 20px;
+}
+
+.transaction__block--center {
+    justify-content: center;
+}
+
+.transaction__block--end {
+    justify-content: flex-end;
+}
+
+.transaction__block--column {
+    flex-direction: column;
+}
+
+.transaction__block--medium {
+    flex: 2;
+}
+
+.transaction__block--big {
+    flex: 5;
+}
+
+.transaction__image {
+    width: 43px;
+    height: 43px;
+    object-fit: contain;
+    filter: grayscale(100%);
+}
+
+.transaction__text {
+    font-family: 'Kanit-Light';
+    font-size: 1rem;
+}
+
+.transaction__text--bold {
+    font-family: 'Kanit-Regular';
+}
+
+.transaction__text--big {
+    font-size: 1.2rem;
+}

@@ -1,0 +1,15 @@
+.caret {
+    border-left: 5px solid rgba(0, 0, 0, 0);
+    border-right: 5px solid rgba(0, 0, 0, 0);
+    display: block;
+    height: 0;
+    width: 0;
+}
+
+.caret--up {
+    border-bottom: 5px solid var(--grey);
+}
+
+.caret--down {
+    border-top: 5px solid var(--grey);
+}

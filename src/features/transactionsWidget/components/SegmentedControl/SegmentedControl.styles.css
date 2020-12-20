@@ -1,0 +1,39 @@
+.segmented-control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.segmented-control__label {
+    font-weight: bold;
+    color: var(--primary);
+    font-family: 'Kanit-Bold';
+    font-size: 0.8rem;
+    flex: 1;
+    text-align: center;
+}
+
+.segmented-control__options {
+    display: flex;
+}
+
+.segmented-control__option {
+    border: 1px solid var(--grey);
+    border-right: none;
+    text-transform: uppercase;
+    padding: 7px 26px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.segmented-control__option:last-child {
+    border-right: 1px solid var(--grey);;
+}
+
+.segmented-control__caret {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}

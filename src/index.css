@@ -1,0 +1,52 @@
+@import-normalize; /* bring in normalize.css styles */
+
+@font-face {
+  font-family: 'Kanit-Regular';
+  font-weight: normal;
+  font-style: normal;
+  src: url("./fonts/Kanit-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Kanit-Light';
+  font-weight: normal;
+  font-style: normal;
+  src: url("./fonts/Kanit-Light.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Kanit-Bold';
+  font-weight: normal;
+  font-style: normal;
+  src: url("./fonts/Kanit-Bold.ttf") format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: 'Kanit-Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: calc(10px + 2vw);
+  min-height: 100vh;
+}
+
+:root {
+  /* colors */
+  --white: #FFFFFF;
+  --blue: #258EA3;
+  --grey: #DBD8D4;
+  --primary: #3F3F3F;
+  --accent: #EB7B2D;
+  --error: #D02B2D;
+}
